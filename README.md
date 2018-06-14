@@ -17,6 +17,10 @@ https://www.quandl.com/data/NASDAQOMX/COMP-NASDAQ-Composite-COMP
 https://www.eia.gov/dnav/pet/hist/RWTCD.htm
 https://www.quandl.com/data/CUR/INR-Currency-Exchange-Rates-USD-INR
 
+Framework: 
+- Apache MxNet with Gluon deep learning interface and Module APIs (Python)
+- Do visit https://gluon.mxnet.io/ for further clarification.
+
 OBJECTIVES:
 1. Find out the most suitable ML/Deep learning model for the given time series analysis.
 2. Calculate and optimize the Mean Absolute Error (MAE) for actual and predicted prices. 
