@@ -19,6 +19,8 @@ https://www.quandl.com/data/CUR/INR-Currency-Exchange-Rates-USD-INR
 
 Framework: 
 - Apache MxNet with Gluon deep learning interface and Module APIs (Python)
+- https://mxnet.incubator.apache.org/install/index.html?device=MacOS&language=Python&processor=CPU
+- https://github.com/gluon-api/gluon-api
 - Do visit https://gluon.mxnet.io/ for further clarification.
 
 OBJECTIVES:
