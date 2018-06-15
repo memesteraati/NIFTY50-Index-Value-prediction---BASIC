@@ -22,6 +22,7 @@ Framework:
 - https://mxnet.incubator.apache.org/install/index.html?device=MacOS&language=Python&processor=CPU
 - https://github.com/gluon-api/gluon-api
 - Do visit https://gluon.mxnet.io/ for further clarification.
+- https://github.com/quandl/quandl-python
 
 Run the Gluon Test python program - running a 2 layer NN for training and testing an MNSIT data set, in the repository to validate prerequisites.
 
