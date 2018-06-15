@@ -11,6 +11,7 @@ Predict future (next 6 months-TEST) value of NIFTY50 index when the data from th
 * WTI Crude oil price value
 
 Any and all requisite financial data for the mentioned 2 years can be found at Quandl.
+https://www.quandl.com/tools/python
 Examples:
 https://www.quandl.com/data/NSE/NIFTY_50-National-Stock-Exchange-of-India-NSE-Stock-Index-Nifty-50
 https://www.quandl.com/data/NASDAQOMX/COMP-NASDAQ-Composite-COMP
