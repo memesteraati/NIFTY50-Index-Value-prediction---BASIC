@@ -23,9 +23,13 @@ Framework:
 - https://github.com/gluon-api/gluon-api
 - Do visit https://gluon.mxnet.io/ for further clarification.
 
+Run the Gluon Test python program - running a 2 layer NN for training and testing an MNSIT data set, in the repository to validate prerequisites.
+
 OBJECTIVES:
 1. Find out the most suitable ML/Deep learning model for the given time series analysis.
 2. Calculate and optimize the Mean Absolute Error (MAE) for actual and predicted prices.
-3. Map the correlation percentage of each of the given macroenomonic factors with the CNX Nifty to facilitate work into fundamental analysis of CNX Nifty and further work into efficiency of fundamental analysis for CNX Nifty.
+3. Hypothesis testing to test hypothesis analysis correlation between stock markets/indices.
+4. Map the correlation percentage of each of the given macroenomonic factors with the CNX Nifty to facilitate work into fundamental analysis of CNX Nifty and further work into efficiency of fundamental analysis for CNX Nifty.
+
 
 
