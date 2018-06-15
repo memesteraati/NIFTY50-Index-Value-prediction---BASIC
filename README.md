@@ -1,5 +1,5 @@
-# NIFTY50-price-prediction using python---BASIC
-Test pet project(from scratch) to map and test the correlations between NIFTY50 Index &amp; NASDAQ Index, USD/INR Exchange rate, International Oil price using machine learning models.
+# NIFTY50-Index value-prediction using python---BASIC
+Test pet project(from scratch) to map and test the correlations between NIFTY50 Index &amp; NASDAQ Index, USD/INR Exchange rate, WTI Crude oil price using the most suitable machine learning model/s.
 
 Problem Clarification:
 
@@ -29,7 +29,7 @@ OBJECTIVES:
 1. Find out the most suitable ML/Deep learning model for the given time series analysis.
 2. Calculate and optimize the Mean Absolute Error (MAE) for actual and predicted prices.
 3. Hypothesis testing to test hypothesis analysis correlation between stock markets/indices.
-4. Map the correlation percentage of each of the given macroenomonic factors with the CNX Nifty to facilitate work into fundamental analysis of CNX Nifty and further work into efficiency of fundamental analysis for CNX Nifty.
+4. Map the correlation percentage of each of the given macroenomonic factors with the CNX Nifty to facilitate work into fundamental market analysis of CNX Nifty and further work into efficiency of fundamental analysis for CNX Nifty.
 
 
 
