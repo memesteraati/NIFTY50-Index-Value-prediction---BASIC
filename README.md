@@ -5,10 +5,11 @@ Problem Clarification:
 
 Predict future (next 6 months-TEST) value of NIFTY50 index when the data from the following Macroeconomic data(past 18 months data-TRAINING):
 
-* NIFTY50 index value (CNX Nifty)
 * NASDAQ composite index value (IXIC)
 * USD/INR exchange rate
 * WTI Crude oil price value
+
+Test metric to be used: Mean Absolute Error(MAE) or Mean absolute percentage erroe(MAPE)
 
 Any and all requisite financial data for the mentioned 2 years can be found at Quandl.
 https://www.quandl.com/tools/python
@@ -32,6 +33,7 @@ OBJECTIVES:
 2. Calculate and optimize the Mean Absolute Error (MAE) for actual and predicted prices.
 3. Hypothesis testing to test hypothesis analysis correlation between stock markets/indices.
 4. Map the correlation percentage of each of the given macroenomonic factors with the CNX Nifty to facilitate work into fundamental market analysis of CNX Nifty and further work into efficiency of fundamental analysis for CNX Nifty.
+5. Propose best way to prepare and preprocess data specifically for the given problem.
 
 
 
