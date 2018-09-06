@@ -35,4 +35,40 @@ OBJECTIVES:
 7. Propose additional, very significant input paramters for given analysis.
 8. Create a library of citations for resources used in the development of the project.
 
+DRAFT PROJECT PIPELINE:(needs development)
 
+0 - Study and develop an understanding of time series analysis 
+
+1. Download the following data:
+* Open, high, low, close, shares traded, turnover CNX Nifty
+* Index value, open, high, low, close NASDAQ composite
+* WTI Oil Price values
+* USD/INR exchange rate
+       For period of  10/07/2016 - 10/07/2018, and divide them into 2 data frames named train<for initial 18 months data> and test<for last 6 months data> (optional at this stage)
+
+2. Clean data, format it, prepare for merging
+3. Merge all the data in a single dataframe
+* Data frame consisting of date wise OHLCV of NIFTY50 index from 13/07/16-13/02/18
+* Data frame consisting of date wise Closing of NIFTY50, Oil price, NASDAQ, EX rate from 13/06/16-13/01/18
+*  Data frame consisting of date wise OHLCV of NIFTY50 index from 13/02/18-13/07/18
+* Data frame consisting of date wise Closing of NIFTY50, Oil price, NASDAQ, EX rate from 13/02/18-13/07/18
+5. Data Scaling 
+6. PCA of OHLCV after scaling
+7. Clustering of PCA output with other input data(scaled)
+8. Exploratory Data analysis:
+* Use correlation and cross validation tests to figure out best input amongst: Closing, Opening, High, Low also consider other technical indicators at later stage.
+9. Prediction Model
+* Consider combining inputs with additional data derived from input e.g. trend direction, previous days indice movement
+* Test efficacy of various methods - 
+NN-EGARCH (KOSPI)
+SVM
+Random forest
+Decision tree
+Naive Bayesian
+Deep learning models - MLP, RNN(LSTM), CNN,
+linear (AR, MA, ARIMA, ARMA), and non-linear models (ARCH, GARCH, NN)
+Genetic Algorithm
+LSSVM and PSO
+Twin Gaussian Process
+SVR and PCA
+10. Optimisation
